@@ -28,20 +28,21 @@ public class DrumKit implements MouseListener {
 JFrame drummy = new JFrame();
 		// 2. Make the frame visible and
 		// set its default close operation to JFrame.EXIT_ON_CLOSE
-
+drummy.setVisible(true);
+drummy.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		
 		// 3. Set the size of the frame
-
+drummy.setSize(300, 400);
 		// 4. Set the title of the frame
-
+drummy.setTitle("DRUM KIT");
 		// 5. Make a JPanel variable and initialize it using "new JPanel().
-
+JPanel cool = new JPanel();
 		// 6. Add the panel to the frame. (The panel is invisible.)
-
+drummy.add(cool);
 		// 7. Download an image of a drum from the Internet. Drop it into your
 		// Eclipse project under "default package".
 
 		// 8. Put the name of your image file in a String variable.
-
+String drum = "DrumDrum.png";
 		// 9. Edit the next line to use your String variable
 		// drumLabelWithImage = createLabelImage(drumImageString);
 

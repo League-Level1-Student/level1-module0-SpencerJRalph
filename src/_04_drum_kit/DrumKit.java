@@ -45,16 +45,16 @@ drummy.add(cool);
 String drum = "DrumDrum.png";
 		// 9. Edit the next line to use your String variable
 		// drumLabelWithImage = createLabelImage(drumImageString);
-
+drumLabelWithImage = createLabelImage(drum);
 		// 10. Add the image to the panel
-
+cool.add(drumLabelWithImage);
 		// 11. Set the layout of the panel to "new GridLayout()"
-
+cool.setLayout(new GridLayout());
 		// 12. call the pack() method on the frame. Run your program. Do you see
 		// your drum image?
-
+drummy.pack();
 		// 13. add this mouse listener to drumLabelWithImage
-
+drumLabelWithImage.addMouseListener(this);
 		// 18. Add more images to make a drumkit. Remember to add this mouse
 		// listener to each one.
 
@@ -63,7 +63,7 @@ String drum = "DrumDrum.png";
 	public void mouseClicked(MouseEvent e) {
 		// 14. Print "mouse clicked" to the console. Run your program and watch
 		// the console to see when this is printed.
-
+		System.out.println("mouse clicked");
 		JLabel drumClicked = (JLabel) e.getSource(); // This line gets the label
 														// that the mouse
 														// clicked on

@@ -73,7 +73,9 @@ drumLabelWithImage.addMouseListener(this);
 		// leagueofamazing/code4life.
 
 		// 16. If they clicked on the drumImage...
-
+if() {
+	
+}
 		// 17. ...use the playSound method to play a drum sound. Test to see if
 		// it works
 
